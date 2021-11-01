@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "iforce@4lex",
+    "database": "challenge_6",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 5432,
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "SequelizeData"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
